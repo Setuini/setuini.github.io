@@ -55,7 +55,6 @@ a
 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-
     color: #fff;
 }
 
@@ -650,9 +649,17 @@ a:hover
 .featherlight .featherlight-content .popup
 {
     padding: 4vh 4vw 4vh 4vw;
-
     text-align: left;
 }
+
+.popup {
+  display: none;
+}
+
+.popup.show {
+  display: block;
+}
+
 
 .featherlight .featherlight-content .popup .container-fluid
 {
