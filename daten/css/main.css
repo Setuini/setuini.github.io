@@ -689,6 +689,22 @@ a:hover
 }
 
 
+/** 7. Popup Mobile **/
+@media (max-width: 653px ){
+  .featherlight .featherlight-content {
+    max-height: 100%;
+  }
+
+  .featherlight .featherlight-content .featherlight-close-icon {
+    position: fixed;
+  }
+
+  .featherlight .featherlight-content .popup {
+      padding: 4vh 12vw 4vh 4vw;
+  }
+}
+
+
 /** 7. Popup Datenschutz & AGB **/
 
 .featherlight .featherlight-content .popup#popup-privacy-terms .item
